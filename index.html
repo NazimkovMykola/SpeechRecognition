@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Web Speech Api examples</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+
+<body>
+  <section class="speech-recognition-section">
+    <h1>Розпізнавання голосу</h1>
+    <p>
+     Натисніть на мікрофон щоб змінити колір сторінки
+    </p>
+    <div class="audio-record-animation__wrapper">
+      <div style="visibility: hidden;" class="audio-record-animation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="microphone-wrapper">
+      <img class="microphone__image" src="microphone.png" width="50" height="50" alt="">
+      <p class="recognition-result">Результат: за замовченням</p>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+
+</html>
